@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: "Good Sans", Helvetica, sans-serif;
+
+}
+
+/* abovebar */
+.abovebar {
+    height: 35px;
+    text-align: center;
+    background-color: #1f02b2;
+    margin: 0px;
+    color: white;
+    border: solid #3a0ba5
+}
+
+.abovebar .abovetext {
+    padding: 5px;
+
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #d9f659;
+    border-bottom: solid #1f02b2 4px;
+    display: inline-flex;
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+
+
+}
+
+.navbar .navleft a {
+    /* position: absolute;
+    left: 10px;
+    top: 40px; */
+    float: left;
+    padding-left: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-text-stroke-color: #1c097d;
+    -webkit-text-stroke-width: 1px;
+
+
+}
+
+.navbar .navmid {
+    position: absolute;
+    top: 30px;
+    right: 700px;
+    font-size: 40px;
+    text-decoration: line-through 7px;
+    color: #1f02b2;
+    -webkit-text-stroke-color: #1c097d;
+    -webkit-text-stroke-width: 2px;
+
+}
+
+.navbar .navright a {
+    position: absolute;
+    right: 150px;
+    top: 35px;
+    padding-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-text-stroke-color: #1c097d;
+    -webkit-text-stroke-width: 1px;
+}
+
+.navbar .navright .user {
+
+    height: 30px;
+    width: 32px;
+    position: absolute;
+    top: 38px;
+    right: 90px;
+}
+
+.navbar .navright .gummy-bear {
+
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 38px;
+    right: 40px;
+}
+
+
+
+
+/* banner */
+.banner {
+    background-color: rgb(249, 154, 20);
+    margin-top: -10px;
+    /* height: 100%;
+    width: 100%;     */
+    height: 625px;
+    width: 1518px;
+}
+
+.banner .text {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: 100px;
+    color: rgb(58, 11, 165);
+
+
+}
+
+.banner .image-banner img {
+    overflow: hidden;
+    margin-top: 8px;
+
+    height: 625px;
+    width: 1518px;
+}
+
+.banner .button {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+}
+
+.banner .button .shop-but {
+    width: 300px;
+    height: 40px;
+    font-size: x-large;
+    background-color: #d9f659;
+    border: solid #1f02b2 3px;
+    border-radius: 30px;
+
+}
